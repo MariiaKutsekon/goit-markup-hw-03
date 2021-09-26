@@ -1,0 +1,339 @@
+:root { 
+    --primary-title-color:#ffffff;
+    --secondary-title-color:#212121;
+    --primery-text-color:#757575;
+    --accent-color:#2196F3;
+    --color-btn:#F5F4FA;
+    --color-footer:#2F303A;
+    --adre-contacts:rgba(255, 255, 255, 0.6);
+    }
+
+    p,h1,h2,h3,h4,h5,h6{
+        margin: 0;
+    }
+    ul{
+        margin: 0;
+        padding-left: 0;
+    }
+    img{
+        display: block;
+    }
+
+.link {text-decoration: none;
+ }
+
+.list{
+    list-style: none;
+}
+
+.header{
+background-color: white;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+    
+.body { 
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+background-color: var(--primary-title-color);
+}
+
+
+/*----------header---------*/
+.conteiner{
+    width: 1200px; 
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+.header-link{
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-title-color);
+font-style: normal;
+}
+
+/*----------------контакти верхни --------------*/
+.header-contacts{
+display: flex;
+margin-left: auto;
+}
+
+.contacts-list:not(:last-child){
+margin-right: 50px;
+}
+
+.header-contacts-link{
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primery-text-color);
+font-style: normal;
+}
+/*----------------контакти верхни завершно------------------*/
+.header-conteiner{
+align-items: center;
+display: flex;
+}
+
+.header-navigations{
+    align-items: center;
+    display: flex;
+}
+.header-list{
+    align-items: center;
+    display: flex;
+    margin-right: 50px;
+}
+   
+.header-item:not(:last-child){
+    margin-right: 50px;
+}
+.logo-item{
+    margin-right: 93px;
+}
+
+/*---------------ховери та фокус------------------*/
+.header-contacts-link:hover,.header-link:hover,
+.header-contacts-link:focus,.header-link:focus,.current-link
+{color:var(--accent-color);
+}
+
+.footer-contacts:hover,.footer-adres:hover,.header-list:hover,
+.footer-contacts:focus,.footer-adres:focus,.header-list:focus{
+color: var(--accent-color);
+}
+
+/*--------------------logo---------------------*/
+
+.logo{
+font-family:'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: var(--accent-color);
+}
+.logo-web{ 
+color:var(--secondary-title-color);
+}
+.logo-web-footer
+{color:var(--primary-title-color);
+}
+
+/*--------------------------перша секція------------------------*/
+
+
+
+
+
+.section-hero{
+background-color: var(--color-footer);
+
+padding-top: 200px;
+padding-bottom: 200px;
+padding-left: 250px;
+padding-right:250px;
+
+text-align: center;
+}
+
+
+.pre-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color:var(--primary-title-color);
+margin-top: 0;
+}
+
+.main-btn{
+background-color: var(--accent-color);
+font-size: 16px;
+font-weight: 700;
+line-height: 1.87;
+color:var(--primary-title-color);
+cursor: pointer;
+font-family: inherit;
+border-radius: 4px;
+margin-top: 30px;
+}
+
+/*----------------КНОПКА студия------------*/
+
+
+/*------------друга секція---------------------*/
+
+
+/*-----якщо прибратицй клас, то зникне верхний регистр для списку----*/
+
+.advantage{
+background-color: var(--color-btn);
+}
+.advantage-item{
+display: flex;
+padding-top: 94px;
+padding-bottom: 94px;
+}
+.advantage-item:not(:last-child){
+    margin-right: 30px;
+}
+.advantage-title{
+    text-align: left;
+    padding-right: 26px;
+}
+
+.advantage-title-text{
+font-weight: 700;
+line-height: 1.14;
+color: var(--secondary-title-color);
+text-transform: uppercase;
+}
+
+.advantage-text{
+font-weight: 400;
+line-height: 1.71;
+color:var(--primery-text-color);
+margin-top: 10px;
+}
+
+/*третя секція*/
+/*--------representation----------*/
+.representation{
+background-color: var(--color-btn);
+}
+.representation-title{
+text-align: center;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+color: var(--secondary-title-color);
+}
+
+.representation-item{
+display: flex;
+margin-top: 50px;
+}
+.representation-item-img:not(:last-child){
+    margin-right: 30px;
+}
+
+    
+    /*--------------------третя секція кінець команда------*/
+
+.team{
+padding-top: 94px;
+padding-bottom: 94px;
+background-color: var(--color-btn);
+}
+/*
+.position{
+    display: flex;
+    background-color: lightsalmon;
+*/
+
+.list-of-team{
+display: flex;
+margin-top: 50px;
+}
+.position:not(:last-child){
+    margin-right: 30px;
+
+}
+.representation-team{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+color: var(--secondary-title-color);
+text-align: center;
+}
+
+.team-name{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+color: var(--secondary-title-color);
+text-align: center;
+margin-top: 30px;
+}
+
+.team-position{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+color: var(--primery-text-color);
+text-align: center;
+/*margin-bottom: 30px;*/
+margin-top: 10px;
+}
+
+
+
+/*-----footer---*/
+.footer{
+background-color:var(--color-footer);
+}
+
+.header-list-footer{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color:var(--adre-contacts);
+font-style: normal;
+}
+
+.footer-adres {
+color:var(--primary-title-color);
+}
+
+.footer-contacts{
+color:var(--adre-contacts);
+} 
+
+
+
+
+/*----------навігація по портфоліо кнопки----------------*/
+.portfolio-btn{
+background-color: var(--color-btn);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.62;
+color:var(--secondary-title-color) ;
+cursor: pointer;
+font-family: inherit;
+ }
+    
+.portfolio-btn:hover,
+.portfolio-btn:focus,.current-btn {
+background-color: var(--accent-color); 
+color: var(--primary-title-color);
+}
+
+/*
+{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+color: var(--secondary-title-color);
+}
+*/
+/*продукд*/
+
+.product-name-list{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--secondary-title-color);
+}
+.product-list{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.87;
+color: var(--primery-text-color);
+}
