@@ -293,7 +293,6 @@ font-size: 16px;
 line-height: 1.9;
 color: var(--secondary-title-color);
 text-align: center;
-margin-bottom: 10px;
 }
 
 .team-position{
@@ -302,7 +301,6 @@ font-size: 16px;
 line-height: 1.9;
 color: var(--primery-text-color);
 text-align: center;
-/*margin-bottom: 30px;*/
 }
 
 
