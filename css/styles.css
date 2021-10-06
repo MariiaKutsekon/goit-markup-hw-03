@@ -199,25 +199,16 @@ border: none;
 display: flex;
 margin-left: -30px;
 margin-top: -30px;
+flex-wrap: wrap;
 }
 .advantage-title{
 width: calc(100% / 4 - 30px);
-flex-wrap: wrap;
 margin-left: 30px;
 margin-top: 30px;
-
 }
 
-/*
-.advantage-item:not(:last-child){
-    margin-right: 50px;
-}
-.advantage-title{
-    text-align: left;
-    padding-right: 26px;
-    }
-*/
 .advantage-title-text{
+font-size: 14;
 font-weight: 700;
 line-height: 1.14;
 color: var(--secondary-title-color);
@@ -234,7 +225,6 @@ color:var(--primery-text-color);
 /*третя секція*/
 /*--------representation----------*/
 .representation{
-/*margin-bottom: 94px;*/
 padding-top: 0;
 }
 
@@ -253,40 +243,27 @@ flex-wrap: wrap;
 margin-left: -30px;
 margin-top: -30px;
 }
-/*
-.representation-item-img{
-margin-top: 15px;
-}
-*/
-/*
-.representation-item-img:not(:nth-child(3n+3)){
-margin-right: 30px;
-}
-*/
+
 .representation-item-img{
     margin-left: 30px;
     margin-top: 30px;
     width: calc(100% / 3 -30px);
 }
 
-    /*--------------------третя секція кінець команда------*/
+    /*--------------------четврта секція кінець команда------*/
 
 .team{
 padding-top: 102px;
 padding-bottom: 94px;
 background-color: var(--color-btn);
 }
-/*
-.position{
-    display: flex;
-    background-color: lightsalmon;
-*/
 
 .list-of-team{
 display: flex;
-/*margin-top: 50px;*/
+margin-top: 50px;
 margin-left: -30px;
 flex-wrap: wrap;
+margin-top: -30px;
 }
 
 .position{
@@ -299,16 +276,13 @@ background-color: var(--primary-title-color);
 }
 
 
-/*:not(:last-child){
-margin-right: 30px;
-}
-*/
 .representation-team{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 color: var(--secondary-title-color);
 text-align: center;
+margin-bottom: 50px;
 }
 .img-team{
     margin-bottom: 30px;
@@ -391,24 +365,20 @@ border: none;
 padding: 8px 22px;
 text-align: center;
 border-radius: 4px;
-
 }
-    
+
+.portfolio-button-item:hover{
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+  
 .portfolio-btn:hover,
 .portfolio-btn:focus,.current-btn {
 background-color: var(--accent-color); 
 color: var(--primary-title-color);
-
 }
-
-/*
-{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-color: var(--secondary-title-color);
-}
-*/
+.product-text {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  }
 /*продукд*/
 
 
@@ -421,11 +391,11 @@ margin-top: -30px;
 
 .product-name-list{
 font-weight: 700;
-font-size: 18px;
+font-size: 17px;
 line-height: 1.71;
 letter-spacing: 0.06em;
 color: var(--secondary-title-color);
-margin-top: 20px;
+margin-bottom: 4px;
 }
 
 .product-list{
@@ -433,13 +403,19 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.87;
 color: var(--primery-text-color);
-margin-top: 4px;
+
 }
 
 .product-name{
 margin-left: 30px;
 margin-top: 30px;
 width: calc(100% / 3 - 30px);
-border-bottom: 1px solid #EEEEEE;
+}
+
+.product-text{
+    font-style: normal;
+    padding: 20px 20px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
